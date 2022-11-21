@@ -1,0 +1,11 @@
+# API Headers
+- 호출자가 Simle response header 집합에 없는 header 에 액세스해야 하는 경우 Access-Control-Expose-Headers 에 클라이언트가 액세스해야 하는 헤더 목록을 포함하자.
+    - Simle response header 집합
+        - Cache-Control
+        - Content-Language
+        - Content-Type
+        - Expires
+        - Last-Modified
+        - Pragma
+- framework 를 사용중이라면 커스텀 헤더 추가 전에 설정 옵션이 존재하는지 확인하자.
+- 요청 간 Cookie 전달이나, 헤더에 Authorization 추가가 필요하다면 Access-Control-Allow-Credentials = true 로 설정하자.
