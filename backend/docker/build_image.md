@@ -90,5 +90,7 @@
     CMD node index.js
     ```
     
-8. Do scan docker image for detect vulnerability
-    docker scan myapp:1.0
+8. Do scan docker image for detect vulnerability  
+    ```bash
+    > docker scan myapp:1.0
+    ```
