@@ -17,7 +17,7 @@
     ```
     ?count=false
     ```
-- 다양한 pagination option 을 검토하자.
+- 기능에 맞는 pagination option 을 검토하자.
     - Offset pagination
         - GET /items?limit=20&offset=100 
     - Cursor pagination

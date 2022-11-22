@@ -9,3 +9,4 @@
         - Pragma
 - framework 를 사용중이라면 커스텀 헤더 추가 전에 설정 옵션이 존재하는지 확인하자.
 - 요청 간 Cookie 전달이나, 헤더에 Authorization 추가가 필요하다면 Access-Control-Allow-Credentials = true 로 설정하자.
+- API 요청 시 처리 시간이 지연되는 경우 다시 요청 가능한 시간을 지정하는 Retry-After Header 를 사용하자.

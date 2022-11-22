@@ -53,4 +53,3 @@
     - Datetime - 2020-11-16T04:25:03Z
     - Date - 2020-11-16
     - Time / Interval - 04:30:00
-- API 요청 시 처리 시간이 지연되는 경우 다시 요청 가능한 시간을 지정하는 Retry-After Header 를 사용하자.
