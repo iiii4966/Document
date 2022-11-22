@@ -15,7 +15,3 @@
 - Preflight 요청이 유효한 시간을 설정하여 캐싱하자.
     - Access-Control-Max-Age 설정
     - 2592000(30일)과 같은 큰 값을 사용하는 것이 일반적이지만 많은 브라우저가 훨씬 더 낮은 제한을 자체적으로 적용하고 있다.
-- Preflight 요청을 줄이기 위해 Simple Header 가 아닌 Header 들을 추가하는 것을 삼가하자.
-    - Authorization header 의 경우 simple header 가 아니므로 추가 시 preflight 요청이 발생한다.
-    - 이를 해결하기 위해 query parameter 를 추가할 수 있으나, URL 에 access token 을 추가하는 것은 보안적으로 좋은 방향이 아니므로 보안 위험을 낮출 수 있는 방향을 생각하자. 
-    - Cookie 사용시 withCredentials 옵션을 사용해야 하고, 이는 preflight request 를 발생시킨다. preflight 요청이 성능에 주는 영향이 큰 서비스라면 Cookie 기반 인증을 사용하지 말자.
