@@ -36,7 +36,7 @@
     - less space storage
     - transfer image faster
     - safe security
-    - minimize attac surfaces
+    - minimize attack surfaces
     
     ```docker
     FROM node:17.0.1-alpine
