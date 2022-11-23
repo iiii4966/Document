@@ -57,15 +57,15 @@ Set-Cookie: id=a3fWa; secure;
 - CSRF 요청 보호 목적
 - cross-site 판별 기준
   1. public suffix, registrable domain 기준
-    - public suffix
-        - 공용 레지스트리에 의해 관리되는 도메인 (https://publicsuffix.org)
-        - example.com의 public suffix -> com (TLD)
-        - example.github.io 의 public suffix -> github.io
-    - registrable domain
-        - public suffix 포함 '.' 좌측에 위치한 도메인
-        - example.com 의 registrable domain -> example.com
-    - public suffix, registrable domain 이 같으면 same-site, 둘 중 하나라도 다르면 cross-site
-  2. scheme, host, port 기준
+      - public suffix
+          - 공용 레지스트리에 의해 관리되는 도메인 (https://publicsuffix.org)
+          - example.com의 public suffix -> com (TLD)
+          - example.github.io 의 public suffix -> github.io
+      - registrable domain
+          - public suffix 포함 '.' 좌측에 위치한 도메인
+          - example.com 의 registrable domain -> example.com
+      - public suffix, registrable domain 이 같으면 same-site, 둘 중 하나라도 다르면 cross-site
+  2. scheme, host, port 기준  
       - scheme이 다를 경우 cross-site 요청
         - client scheme 이 http 이고 서버와의 통신은 https 라면 cross-site 요청 
       - host 는 1번 항목과 동일
