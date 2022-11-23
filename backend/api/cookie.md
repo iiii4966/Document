@@ -48,7 +48,7 @@ Set-Cookie: id=a3fWa; secure;
     - example.com
     - www.example.com 
     - www.abc.example.com
-  - 불가 도메인
+  - 쿠키 전송 불가 도메인
     - google.com
     - example.co.kr 
 
