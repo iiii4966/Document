@@ -106,7 +106,7 @@ Set-Cookie: id=a3fWa; max-age=86400;
   - 브라우저를 닫으면 삭제되는 쿠키
   - Expires, Max-Age 를 설정하지 않은 Cookie
 - Permanent Cookie
-  - Expires 나 Max-Age 에 지정한 값에 특정된 시점에 삭제되는 쿠키
-  - 해당 시점 전까지 삭제되지 않고 보존
+  - Expires 나 Max-Age 에 지정한 값으로 특정된 시점에 삭제되는 쿠키
+  - 임의로 지우지 않는 한, 브라우저를 닫아도 해당 시점 전까지 삭제되지 않고 보존
 - Expires와 Max-Age 속성이 둘 다 설정 된 경우, Max-Age가 우선권을 갖음
 - IE6, 7, 8 은 max-age 를 지원하지 않음
