@@ -16,27 +16,27 @@ Set-Cookie: cookie=choco
 
 ## Options
 
-#### path
+### path
 - Cookie 전송 가능한 URL 경로
 - / 만 쓸 경우에 모든 하위 디렉토리 포함
 ```http
 Set-Cookie: id=a3fWa; path=/;
 ```
 
-#### httpOnly
+### httpOnly
 - 서버사이드에서만 설정이 가능한 쿠키를 의미
 - document.cookie API를 통해 접근 불가
 ```http
 Set-Cookie: id=a3fWa; secure; httponly
 ```
 
-#### secure
+### secure
 - https protocol 에서만 전송 가능한 쿠키
 ```http
 Set-Cookie: id=a3fWa; secure;
 ```
 
-#### domain
+### domain
 - 쿠키를 전송할 수 있는 서버 도메인
 - 도메인을 설정하지 않으면 기본값은 쿠키를 설정한 서버 도메인
   - 서버 도메인이 https://api.example.com 이라면 쿠키 도메인 -> example.com 
@@ -52,7 +52,7 @@ Set-Cookie: id=a3fWa; secure;
     - google.com
     - example.co.kr 
 
-#### sameSite
+### sameSite
 - same, cross-site 기준 쿠키를 저장, 전송할 수 있는 기준
 - CSRF 요청 보호 목적
 - cross-site 판별 기준
@@ -92,7 +92,7 @@ Set-Cookie: id=a3fWa; secure;
 Set-Cookie: mykey=myvalue; samesite=lax
 ```
 
-#### expires / max-age
+### expires / max-age
 - expires 는 만료 일시 지정 
 ```http
 Set-Cookie: id=a3fWa; expires=Thu, 31 Oct 2021 07:28:00 GMT;
