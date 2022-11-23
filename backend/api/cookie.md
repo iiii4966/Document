@@ -1,13 +1,18 @@
 # Cookie
 - 서버에서 읽기 목적으로 사용되는 브라우저 데이터 저장소
-- 최대 4KiB
-- 
 
 ```http
 HTTP/2.0 200 OK
 Content-Type: application/json
 Set-Cookie: cookie=choco
 ```
+
+| Browser	| Cookie count limit per domain	| Total size of cookies |
+| --- | --- | --- |
+| Chrome | 180 | 4096 |
+| Firefox |	150 |	4097 |
+| Opera |	60	| 4096 |
+| Safari |	600	| 4093 |
 
 ## Options
 
