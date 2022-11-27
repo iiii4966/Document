@@ -1,4 +1,4 @@
-# API CORS
+# CORS
 
 - CORS 를 처리하기 위해 preflight 요청에 대비하자.
     - Origin request header 값, Access-Control-Allow-Origin 설정
