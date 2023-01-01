@@ -99,7 +99,7 @@ floating point 를 강제하기 위해서는 `parseFloat` 함수를 사용하면
 
 decimal 타입을 지원하는 javascript 라이브러리가 존재한다.  
 round mode 와 다양한 연산을 지원한다.  
-아래와 같이 3가지 타입이 존재하는데 이들의 차이점은 [difference](https://github.com/MikeMcl/big.js/wiki#what-is-the-difference-between-bigjs-bignumberjs-and-decimaljs) 이 링크에서 확인할 수 있다. 
+아래와 같이 3가지 라이브러리를 지원하는데 이들의 차이점은 [difference](https://github.com/MikeMcl/big.js/wiki#what-is-the-difference-between-bigjs-bignumberjs-and-decimaljs) 이 링크에서 확인할 수 있다. 
 
 - bignumber.js - https://github.com/MikeMcl/bignumber.js
 - big.js - https://github.com/MikeMcl/big.js
